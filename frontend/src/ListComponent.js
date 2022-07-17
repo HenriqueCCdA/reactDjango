@@ -2,6 +2,7 @@ import React from 'react';
 import ItemComponent from './ItemComponent';
 
 export default function ListComponent(props){
+    console.log(props)
     return (
         <div>
             <h2>{ props.listName }</h2>
