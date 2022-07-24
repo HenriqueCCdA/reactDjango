@@ -3,3 +3,4 @@
 [Link](https://www.udemy.com/course/desenvolvimento-web-com-django-react-e-deploy-aws-e-linux)
 
 inicio: 12/07/2022
+fim: 24/04/2022
