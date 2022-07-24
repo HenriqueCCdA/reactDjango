@@ -32,8 +32,11 @@ export default class LoginComponent extends React.Component{
         fetch(url, requestOptions)
             .then(response => response.json())
             .then(data => {
-                localStorage.setItem('token', data.token);
-                this.setState({token: data.token});
+                if(data.token!==undefined){
+                    localStorage.setItem('token', data.token);
+                    this.setState({token: data.token});
+                }
+                console.log(data)
             });
     }
 
